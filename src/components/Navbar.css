@@ -1,0 +1,12 @@
+.App-logo {
+  height: 60px;
+}
+
+.Navbar-container {
+  padding: 10px;
+  border-bottom: 2px solid white;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

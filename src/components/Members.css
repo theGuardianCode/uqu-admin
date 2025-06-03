@@ -1,0 +1,13 @@
+.container {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+}

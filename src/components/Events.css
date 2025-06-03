@@ -1,0 +1,41 @@
+.event-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.event-column {
+    padding-left: 10px;
+    width: 100%;
+}
+
+li {
+    margin-bottom: 20px;
+    padding: 5px;
+    background-color: rgba(72, 72, 72, 0.775);
+    border-radius: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 10px;
+}
+
+ul img {
+    width: 100px;
+    border-radius: 10%;
+    object-fit: cover;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rate {
+    background-color: #93e088;
+    color: green;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 20px;
+}

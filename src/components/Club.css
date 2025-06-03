@@ -1,0 +1,52 @@
+.club-logo {
+    height: 100px;
+}
+
+.bio {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 5px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    margin: 5px 0;
+}
+
+h5 {
+    margin: 5px 0;
+    font-weight: normal;
+}
+
+p {
+    margin: 5px 0;
+}
+
+.scrolling-selector {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.scrolling-selector p {
+    display: inline-block;
+    margin: 8px;
+    padding: 2px;
+}
+
+.active {
+    border-bottom: 3px solid #ff1a8e;
+}
+
+hr {
+    display: flex;
+    justify-self: center;
+    margin: 0;
+    width: 90%;
+}
